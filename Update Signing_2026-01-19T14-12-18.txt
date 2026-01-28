@@ -1,0 +1,531 @@
+
+Showing Recent Errors Only
+
+Update provisioning for PhoneAddictionMugshot
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Using account <DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'> for repair
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _allCertificateTypesForProgram:purpose:profileType:context:]:certificate types for OID 1.2.840.113635.100.6.1.2: {(
+    <DVTPortalCertificateType: 0xab4c12300; identifier='Xcode.Portal.CertificateType.Development'>,
+    <DVTPortalCertificateType: 0xab4c11a40; identifier='Xcode.Portal.CertificateType.iOS.Development'>
+)}
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _allCertificateTypesForProgram:purpose:profileType:context:]: profile allowed certificate types: {(
+    <DVTPortalCertificateType: 0xab4c12300; identifier='Xcode.Portal.CertificateType.Development'>,
+    <DVTPortalCertificateType: 0xab4c11a40; identifier='Xcode.Portal.CertificateType.iOS.Development'>
+)}
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _getPrimaryCertificateType:team:context:]: creatable certificate types: {(
+    <DVTPortalCertificateType: 0xab4c12300; identifier='Xcode.Portal.CertificateType.Development'>
+)}
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _getPrimaryCertificateType:team:context:]: certificate types eligible for primary type: {(
+    <DVTPortalCertificateType: 0xab4c12300; identifier='Xcode.Portal.CertificateType.Development'>
+)}
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _getPrimaryCertificateType:team:context:]: found primary certificate type Apple Development
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Sending request 33075C78-4E45-47F8-A021-BE0991346119 to <https://developerservices2.apple.com/services/v1/certificates> for session <DVTServicesAccountBasedSession: 0xaa361ed00; account='<DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 95;
+    "Content-Type" = "application/vnd.api+json";
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGlppZsRDWdzLnhjb2RlLmF1dGi9AF/soFnb8U4bpNdEnxc71wpX9cObYKWFNFb8xhGr1bY309XBmGYGRFN9kaSBReO8B3rzgt/xj256dl8IryQUMWeYb7O4Skn0FnnnpT1hZsHPIINs8RjB1fFhrKEOEdvtA7r9IpzGTrOKZG5bltbcLebJnTJg";
+    "X-Apple-I-Identity-Id" = "000335-08-82e287f2-5ad5-4656-9983-4de8cf7cc250";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<Mac16,12> <macOS;26.2;25C56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/24553)>";
+    "X-Mme-Device-Id" = "0493BC7F-98C6-55A9-B7B5-F050673254AA";
+    "X-Xcode-Version" = "26.2 (17C52)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=5Z5UQ64D5N&filter%5BcertificateType%5D=DEVELOPMENT&limit=200"}
+
+2026-01-19 20:12:18 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic addRepairForRepairable:]_block_invoke: Existing repair: <IDEProvisioningRepair: 0xab1e1e440; repairable = <IDEProvisioningRepairInfo: 0xab10d5860; repairableName='PhoneAddictionMugshot', team='<IDEProvisioningDisambiguatableBasicTeam: 0xaa76f7dc0; teamID='5Z5UQ64D5N', teamName='Conflux Solutions LLC', teamType='Company', username='sdukes@confluxsolutions.com', isFreeProvisioningTeam='0'>', machineName='Shmuel’s MacBook Air', machineID='00008132-000205881A50401C', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='app.confluxsolutions.phoneaddictionmugshot', appIDFeatures='<DVTPortalAppIDFeatures 0xab566f2c0: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0xab1313d00:'com.apple.platform.iphoneos':<DVTFilePath:0xab13703f0:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'.'>>
+2026-01-19 20:12:18 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic addRepairForRepairable:]_block_invoke: Existing repair: <IDEProvisioningRepair: 0xab1e1e440; repairable = <IDEProvisioningRepairInfo: 0xab10d5860; repairableName='PhoneAddictionMugshot', team='<IDEProvisioningDisambiguatableBasicTeam: 0xaa76f7dc0; teamID='5Z5UQ64D5N', teamName='Conflux Solutions LLC', teamType='Company', username='sdukes@confluxsolutions.com', isFreeProvisioningTeam='0'>', machineName='Shmuel’s MacBook Air', machineID='00008132-000205881A50401C', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='app.confluxsolutions.phoneaddictionmugshot', appIDFeatures='<DVTPortalAppIDFeatures 0xab566f2c0: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0xab1313d00:'com.apple.platform.iphoneos':<DVTFilePath:0xab13703f0:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'.'>>
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Received response for 33075C78-4E45-47F8-A021-BE0991346119 @ <https://developerservices2.apple.com/services/v1/certificates>. Code = 0
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Response payload: {
+  "data" : [ {
+    "type" : "certificates",
+    "id" : "W8A5Y3Z6GC",
+    "attributes" : {
+      "requesterEmail" : "sdukes@confluxsolutions.com",
+      "serialNumber" : "0F8DD36E687E26BAC363906A634A3710",
+      "certificateContent" : "MIIFzzCCBLegAwIBAgIQD43Tbmh+JrrDY5BqY0o3EDANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI2MDExNjA0NTY1MFoXDTI3MDExNjA0NTY0OVowgZUxGjAYBgoJkiaJk/IsZAEBDApCQVVKQTVEWTRVMTUwMwYDVQQDDCxBcHBsZSBEZXZlbG9wbWVudDogU2htdWVsIER1a2VzIChXU0hXVjRHOVpNKTETMBEGA1UECwwKNVo1VVE2NEQ1TjEeMBwGA1UECgwVQ29uZmx1eCBTb2x1dGlvbnMgTExDMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmultafXgvoEap6j3phsoLwpGO7UchDLBoVDxnIU8uq5dS1bXpgZIhMZ5enzrlwV19W3CfrTxfXc22jANxDymqCSv7rTu8UkacwH7H8ZeCTLu4V9injuUpqysjOcLp5TAvmESiXP15EkvhQgZoeCVvB3/Y2Wao+pfs4R+IYiWObfiXmkIn9JMRmeoRmEtgqliKtc3LwwpO7ZPWPraPAqQxK+kRCKCAdso198HxSINAvoq5ad5+ZcEm/ZZRYKyCM1vvGeyvVg/y897B8xHkF0tXBq7ltyKf7lusEM9uPbifQx/rIlwGfx9C6WKgPJkghWQZKUfnq1Y9M9m1bOefYf58CAwEAAaOCAjgwggI0MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUCf7AFZD5r2QKkhK5JihjDJfsp7IwcAYIKwYBBQUHAQEEZDBiMC0GCCsGAQUFBzAChiFodHRwOi8vY2VydHMuYXBwbGUuY29tL3d3ZHJnMy5kZXIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwMDMtd3dkcmczMDQwggEeBgNVHSAEggEVMIIBETCCAQ0GCSqGSIb3Y2QFATCB/zCBwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cuYXBwbGUuY29tL2NlcnRpZmljYXRlYXV0aG9yaXR5LzAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUyj4CFpTbQCsX8nRonXFS1id0uZUwDgYDVR0PAQH/BAQDAgeAMBMGCiqGSIb3Y2QGAQIBAf8EAgUAMBMGCiqGSIb3Y2QGAQwBAf8EAgUAMA0GCSqGSIb3DQEBCwUAA4IBAQDHnXNj3GjWumGyp3Eqw0kdFkzfgDDIXPO5i8qrVaszFIrqujXXBGJVd3+aJXWXlR+bLYHhB/txiKY38IrzKUw9/nfdQh1RNApAAWVffObRxpH9G6zrxQz8yfCFLgW2DO9aF8PT5wN2udSCBt5dmEkJwcoiOSfUF4lXVYYhvhp2v9pB6BwmPvTUCvoGtgJz0XyuCNfFKxsn34OLnffWpV+WPM9a9ELJmODhTOkt0WqO01sgXeD01IvRJIcl1c/iYwYtbDjk/qe1HGsmuOfIXq58qFLnmXJ5XUpLsPnBNDJkY7m4N1JIlWP+F5QyD+FN8B7oWXgoEw5f8n1KgfyNns76",
+      "displayName" : "Shmuel Dukes",
+      "requesterLastName" : "Dukes",
+      "csrContent" : null,
+      "machineName" : "Shmuel’s MacBook Air",
+      "platform" : null,
+      "requesterFirstName" : "Shmuel",
+      "machineId" : "00008132-000205881A50401C",
+      "name" : "Apple Development: Shmuel Dukes",
+      "responseId" : "1f67cdd6-366e-494c-9d7f-91e81baa25d4",
+      "expirationDate" : "2027-01-16T04:56:49.000+00:00",
+      "certificateType" : "DEVELOPMENT"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/certificates/W8A5Y3Z6GC"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/certificates?filter%5BcertificateType%5D=DEVELOPMENT&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 1,
+      "limit" : 200
+    }
+  }
+}
+
+
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _evaluateCertificatesWithSession:context:repairable:steps:userAction:error:]: 1 certificates on portal for purpose <DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>: (
+    "<DeveloperAPICertificate = name: Apple Development: Shmuel Dukes; team: <DVTPortalTeam: 0xaad0150c0; name='Conflux Solutions LLC', teamID='5Z5UQ64D5N', type='Company/Organization', memberships='(\n    \"<DVTPortalMembership: 0xab6d3ec70; programs='{(\\n    <DVTPortalProgram: 0xab2106fd0; <DVTPortalProgram: 0xab2106fd0; identifier='Xcode.Portal.Program.iOS'>>\\n)}'>\",\n    \"<DVTPortalMembership: 0xab6d3d920; programs='{(\\n    <DVTPortalProgram: 0xab20e90e0; <DVTPortalProgram: 0xab20e90e0; identifier='Xcode.Portal.Program.Mac'>>\\n)}'>\"\n)'>; machineName: Shmuel\U2019s MacBook Air; machineID: 00008132-000205881A50401C; type: certificates; signingCertificate: <DVTSigningCertificate: 0xab3668000; name='Apple Development: Shmuel Dukes (WSHWV4G9ZM)', hash='97F266517D43C6335AB11FE1B6C4986407E99FFC', serialNumber='F8DD36E687E26BAC363906A634A3710', certificateKinds='(\n    \"1.2.840.113635.100.6.1.12\",\n    \"1.2.840.113635.100.6.1.2\"\n), issueDate='2026-01-16 04:56:50 +0000''>>"
+)
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _evaluateCertificatesWithSession:context:repairable:steps:userAction:error:]: 1 member-specific certificates on portal for purpose development: (
+    "<DeveloperAPICertificate = name: Apple Development: Shmuel Dukes; team: <DVTPortalTeam: 0xaad0150c0; name='Conflux Solutions LLC', teamID='5Z5UQ64D5N', type='Company/Organization', memberships='(\n    \"<DVTPortalMembership: 0xab6d3ec70; programs='{(\\n    <DVTPortalProgram: 0xab2106fd0; <DVTPortalProgram: 0xab2106fd0; identifier='Xcode.Portal.Program.iOS'>>\\n)}'>\",\n    \"<DVTPortalMembership: 0xab6d3d920; programs='{(\\n    <DVTPortalProgram: 0xab20e90e0; <DVTPortalProgram: 0xab20e90e0; identifier='Xcode.Portal.Program.Mac'>>\\n)}'>\"\n)'>; machineName: Shmuel\U2019s MacBook Air; machineID: 00008132-000205881A50401C; type: certificates; signingCertificate: <DVTSigningCertificate: 0xab3668000; name='Apple Development: Shmuel Dukes (WSHWV4G9ZM)', hash='97F266517D43C6335AB11FE1B6C4986407E99FFC', serialNumber='F8DD36E687E26BAC363906A634A3710', certificateKinds='(\n    \"1.2.840.113635.100.6.1.12\",\n    \"1.2.840.113635.100.6.1.2\"\n), issueDate='2026-01-16 04:56:50 +0000''>>"
+)
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): -[IDEProvisioningRepairStepGenerator_Automatic _evaluateCertificatesWithSession:context:repairable:steps:userAction:error:]: has a local certificate
+
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Using account <DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'> for repair
+
+2026-01-19 20:12:18 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic repairDidBegin:]: 0xa9fe6fd80 <IDEProvisioningRepair: 0xab1e1e440; repairable = <IDEProvisioningRepairInfo: 0xab10d5860; repairableName='PhoneAddictionMugshot', team='<IDEProvisioningDisambiguatableBasicTeam: 0xaa76f7dc0; teamID='5Z5UQ64D5N', teamName='Conflux Solutions LLC', teamType='Company', username='sdukes@confluxsolutions.com', isFreeProvisioningTeam='0'>', machineName='Shmuel’s MacBook Air', machineID='00008132-000205881A50401C', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='app.confluxsolutions.phoneaddictionmugshot', appIDFeatures='<DVTPortalAppIDFeatures 0xab566f2c0: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0xab1313d00:'com.apple.platform.iphoneos':<DVTFilePath:0xab13703f0:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'.'>>
+2026-01-19 20:12:18 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic repair:isExecutingStep:]: 0xa9fe6fd80 <IDEProvisioningRepair: 0xab1e1e440; repairable = <IDEProvisioningRepairInfo: 0xab10d5860; repairableName='PhoneAddictionMugshot', team='<IDEProvisioningDisambiguatableBasicTeam: 0xaa76f7dc0; teamID='5Z5UQ64D5N', teamName='Conflux Solutions LLC', teamType='Company', username='sdukes@confluxsolutions.com', isFreeProvisioningTeam='0'>', machineName='Shmuel’s MacBook Air', machineID='00008132-000205881A50401C', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='app.confluxsolutions.phoneaddictionmugshot', appIDFeatures='<DVTPortalAppIDFeatures 0xab566f2c0: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0xab1313d00:'com.apple.platform.iphoneos':<DVTFilePath:0xab13703f0:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'.'>> step: Creating provisioning profile
+2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): 2026-01-19 20:12:18 +0000 IDEProvisioningRepair(PhoneAddictionMugshot): Using account <DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'> for repair
+
+2026-01-19 20:12:19 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic repair:didFailWithError:]: 0xa9fe6fd80 <IDEProvisioningRepair: 0xab1e1e440; repairable = <IDEProvisioningRepairInfo: 0xab10d5860; repairableName='PhoneAddictionMugshot', team='<IDEProvisioningDisambiguatableBasicTeam: 0xaa76f7dc0; teamID='5Z5UQ64D5N', teamName='Conflux Solutions LLC', teamType='Company', username='sdukes@confluxsolutions.com', isFreeProvisioningTeam='0'>', machineName='Shmuel’s MacBook Air', machineID='00008132-000205881A50401C', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='app.confluxsolutions.phoneaddictionmugshot', appIDFeatures='<DVTPortalAppIDFeatures 0xab566f2c0: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0xab1313d00:'com.apple.platform.iphoneos':<DVTFilePath:0xab13703f0:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'.'>>, error = Error Domain=DeveloperAPIServiceErrorDomain Code=5 "Communication with Apple failed" UserInfo={NSLocalizedDescription=Communication with Apple failed, NSLocalizedRecoverySuggestion=Your team has no devices from which to generate a provisioning profile. Connect a device to use or manually add device IDs in Certificates, Identifiers & Profiles. https://developer.apple.com/account/}
+
+
+Communication with Apple failed (Your team has no devices from which to generate a provisioning profile. Connect a device to use or manually add device IDs in Certificates, Identifiers & Profiles. https://developer.apple.com/account/)
+
+Create iOS App Development provisioning profile for bundle identifier "app.confluxsolutions.phoneaddictionmugshot"
+2026-01-19 20:12:18 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:18 +0000 IDEProvisioningLedgerEntry: Sending request 0E9136F6-740E-46A5-B390-77A30A2BFB7A to <https://developerservices2.apple.com/services/v1/bundleIds> for session <DVTServicesAccountBasedSession: 0xaa1650840; account='<DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 153;
+    "Content-Type" = "application/vnd.api+json";
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGlppZsRDWdzLnhjb2RlLmF1dGi9AF/soFnb8U4bpNdEnxc71wpX9cObYKWFNFb8xhGr1bY309XBmGYGRFN9kaSBReO8B3rzgt/xj256dl8IryQUMWeYb7O4Skn0FnnnpT1hZsHPIINs8RjB1fFhrKEOEdvtA7r9IpzGTrOKZG5bltbcLebJnTJg";
+    "X-Apple-I-Identity-Id" = "000335-08-82e287f2-5ad5-4656-9983-4de8cf7cc250";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<Mac16,12> <macOS;26.2;25C56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/24553)>";
+    "X-Mme-Device-Id" = "0493BC7F-98C6-55A9-B7B5-F050673254AA";
+    "X-Xcode-Version" = "26.2 (17C52)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=5Z5UQ64D5N&filter%5BbundleType%5D=bundle&filter%5Bidentifier%5D=app.confluxsolutions.phoneaddictionmugshot,*&limit=200"}
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Received response for 0E9136F6-740E-46A5-B390-77A30A2BFB7A @ <https://developerservices2.apple.com/services/v1/bundleIds>. Code = 0
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Response payload: {
+  "data" : [ {
+    "type" : "bundleIds",
+    "id" : "UCN22C69AV",
+    "attributes" : {
+      "identifier" : "*",
+      "seedId" : "5Z5UQ64D5N",
+      "hasExclusiveManagedCapabilities" : false,
+      "name" : "XC Wildcard",
+      "entitlementGroupName" : null,
+      "bundleType" : "bundle",
+      "entitlementType" : null,
+      "platform" : "UNIVERSAL",
+      "deploymentDataNotice" : null,
+      "responseId" : "9baa5f17-d2b8-4e55-a086-8ebb542cb774",
+      "wildcard" : true
+    },
+    "relationships" : {
+      "bundleIdCapabilities" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/UCN22C69AV/relationships/bundleIdCapabilities",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/UCN22C69AV/bundleIdCapabilities"
+        }
+      },
+      "profiles" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/UCN22C69AV/relationships/profiles",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/UCN22C69AV/profiles"
+        }
+      }
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/UCN22C69AV"
+    }
+  }, {
+    "type" : "bundleIds",
+    "id" : "WXWQHS33WG",
+    "attributes" : {
+      "identifier" : "app.confluxsolutions.phoneaddictionmugshot",
+      "seedId" : "5Z5UQ64D5N",
+      "hasExclusiveManagedCapabilities" : false,
+      "name" : "Phone Addiction Mugshot",
+      "entitlementGroupName" : null,
+      "bundleType" : "bundle",
+      "entitlementType" : null,
+      "platform" : "UNIVERSAL",
+      "deploymentDataNotice" : null,
+      "responseId" : "9baa5f17-d2b8-4e55-a086-8ebb542cb774",
+      "wildcard" : false
+    },
+    "relationships" : {
+      "bundleIdCapabilities" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/relationships/bundleIdCapabilities",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/bundleIdCapabilities"
+        }
+      },
+      "profiles" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/relationships/profiles",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/profiles"
+        }
+      }
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds?filter%5BbundleType%5D=bundle&filter%5Bidentifier%5D=app.confluxsolutions.phoneaddictionmugshot%2C%2A&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 2,
+      "limit" : 200
+    }
+  }
+}
+
+
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Sending request 2C452FD0-B726-46AC-8137-EC2E638166A4 to <https://developerservices2.apple.com/services/v1/bundleIds/WXWQHS33WG> for session <DVTServicesAccountBasedSession: 0xaa1650840; account='<DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 227;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 16p4n7abc4h8tda0gg3307js0nv8d4jm52gnbtq3gslj7b6cpdpf;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGlppZsRDWdzLnhjb2RlLmF1dGi9AF/soFnb8U4bpNdEnxc71wpX9cObYKWFNFb8xhGr1bY309XBmGYGRFN9kaSBReO8B3rzgt/xj256dl8IryQUMWeYb7O4Skn0FnnnpT1hZsHPIINs8RjB1fFhrKEOEdvtA7r9IpzGTrOKZG5bltbcLebJnTJg";
+    "X-Apple-I-Identity-Id" = "000335-08-82e287f2-5ad5-4656-9983-4de8cf7cc250";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<Mac16,12> <macOS;26.2;25C56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/24553)>";
+    "X-Mme-Device-Id" = "0493BC7F-98C6-55A9-B7B5-F050673254AA";
+    "X-Xcode-Version" = "26.2 (17C52)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=5Z5UQ64D5N&include=bundleIdCapabilities.capability,bundleIdCapabilities.appGroups,bundleIdCapabilities.cloudContainers,bundleIdCapabilities.merchantIds,bundleIdCapabilities.associatedBundleIds"}
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Received response for 2C452FD0-B726-46AC-8137-EC2E638166A4 @ <https://developerservices2.apple.com/services/v1/bundleIds/WXWQHS33WG>. Code = 0
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Response payload: {
+  "data" : {
+    "type" : "bundleIds",
+    "id" : "WXWQHS33WG",
+    "attributes" : {
+      "identifier" : "app.confluxsolutions.phoneaddictionmugshot",
+      "seedId" : "5Z5UQ64D5N",
+      "hasExclusiveManagedCapabilities" : false,
+      "name" : "Phone Addiction Mugshot",
+      "entitlementGroupName" : null,
+      "bundleType" : "bundle",
+      "entitlementType" : null,
+      "platform" : "UNIVERSAL",
+      "deploymentDataNotice" : null,
+      "responseId" : "05ad02af-6383-450a-9935-48e1cdb4445f",
+      "wildcard" : false
+    },
+    "relationships" : {
+      "bundleIdCapabilities" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "data" : [ {
+          "type" : "bundleIdCapabilities",
+          "id" : "WXWQHS33WG_IN_APP_PURCHASE"
+        } ],
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/relationships/bundleIdCapabilities",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/bundleIdCapabilities"
+        }
+      },
+      "profiles" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/relationships/profiles",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG/profiles"
+        }
+      }
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG"
+    }
+  },
+  "included" : [ {
+    "type" : "bundleIdCapabilities",
+    "id" : "WXWQHS33WG_IN_APP_PURCHASE",
+    "attributes" : {
+      "ownerType" : "BUNDLE",
+      "settings" : null,
+      "editable" : true,
+      "inputs" : null,
+      "enabled" : true,
+      "responseId" : "05ad02af-6383-450a-9935-48e1cdb4445f"
+    },
+    "relationships" : {
+      "appConsentBundleId" : {
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/appConsentBundleId",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/appConsentBundleId"
+        }
+      },
+      "appGroups" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "data" : [ ],
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/appGroups",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/appGroups"
+        }
+      },
+      "associatedBundleIds" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "data" : [ ],
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/associatedBundleIds",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/associatedBundleIds"
+        }
+      },
+      "bundleId" : {
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/bundleId",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/bundleId"
+        }
+      },
+      "capability" : {
+        "data" : {
+          "type" : "capabilities",
+          "id" : "IN_APP_PURCHASE"
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/capability",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/capability"
+        }
+      },
+      "certificates" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/certificates",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/certificates"
+        }
+      },
+      "cloudContainers" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "data" : [ ],
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/cloudContainers",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/cloudContainers"
+        }
+      },
+      "identityMerchantIds" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/identityMerchantIds",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/identityMerchantIds"
+        }
+      },
+      "macBundleId" : {
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/macBundleId",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/macBundleId"
+        }
+      },
+      "merchantIds" : {
+        "meta" : {
+          "paging" : {
+            "total" : 0,
+            "limit" : 2147483647
+          }
+        },
+        "data" : [ ],
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/merchantIds",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/merchantIds"
+        }
+      },
+      "parentBundleId" : {
+        "links" : {
+          "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/relationships/parentBundleId",
+          "related" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE/parentBundleId"
+        }
+      }
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/bundleIdCapabilities/WXWQHS33WG_IN_APP_PURCHASE"
+    }
+  }, {
+    "type" : "capabilities",
+    "id" : "IN_APP_PURCHASE",
+    "attributes" : {
+      "documentationURL" : "https://developer.apple.com/in-app-purchase",
+      "supportsWildcard" : false,
+      "editable" : true,
+      "requestedCustomCapabilities" : null,
+      "enabledByDefault" : true,
+      "referenceType" : null,
+      "description" : "In-App Purchase",
+      "optional" : false,
+      "associatedToRequestForms" : false,
+      "hasExistingFeatureRequest" : false,
+      "developmentOnly" : false,
+      "displaySupportedSDKs" : false,
+      "imageUrl" : "/assets/elements/icons/cip/capabilities/portal-in-app-purchase.svg",
+      "name" : "In-App Purchase",
+      "isPublic" : true,
+      "optInRequired" : false,
+      "canRequestFromPortal" : false,
+      "capabilityType" : "capability",
+      "distributionApprovalRequired" : false,
+      "responseId" : "05ad02af-6383-450a-9935-48e1cdb4445f"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/capabilities/IN_APP_PURCHASE"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/bundleIds/WXWQHS33WG?include=bundleIdCapabilities.capability%2CbundleIdCapabilities.appGroups%2CbundleIdCapabilities.cloudContainers%2CbundleIdCapabilities.merchantIds%2CbundleIdCapabilities.associatedBundleIds"
+  }
+}
+
+
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Sending request 8C240B20-4FDA-4896-A089-848024E01BE3 to <https://developerservices2.apple.com/services/v1/profiles> for session <DVTServicesAccountBasedSession: 0xaa1650840; account='<DVTAppleIDBasedDeveloperAccount: 0xaa76f4d80; username='sdukes@confluxsolutions.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 178;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 16p4n7abc4h8tda0gg3307js0nv8d4jm52gnbtq3gslj7b6cpdpf;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGlppZsRDWdzLnhjb2RlLmF1dGi9AF/soFnb8U4bpNdEnxc71wpX9cObYKWFNFb8xhGr1bY309XBmGYGRFN9kaSBReO8B3rzgt/xj256dl8IryQUMWeYb7O4Skn0FnnnpT1hZsHPIINs8RjB1fFhrKEOEdvtA7r9IpzGTrOKZG5bltbcLebJnTJg";
+    "X-Apple-I-Identity-Id" = "000335-08-82e287f2-5ad5-4656-9983-4de8cf7cc250";
+    "X-MMe-Client-Info" = "<Mac16,12> <macOS;26.2;25C56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/24553)>";
+    "X-Mme-Device-Id" = "0493BC7F-98C6-55A9-B7B5-F050673254AA";
+    "X-Xcode-Version" = "26.2 (17C52)";
+}
+
+Payload:
+{"data":{"relationships":{"bundleId":{"data":{"id":"WXWQHS33WG","type":"bundleIds"}}},"attributes":{"teamId":"5Z5UQ64D5N","profileType":"IOS_APP_DEVELOPMENT"},"type":"profiles"}}
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Received response for 8C240B20-4FDA-4896-A089-848024E01BE3 @ <https://developerservices2.apple.com/services/v1/profiles>. Code = 0
+
+2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: 2026-01-19 20:12:19 +0000 IDEProvisioningLedgerEntry: Response payload: {
+  "errors" : [ {
+    "id" : "eb5bacaa-6536-459b-b5c5-20fbe3a0e65c",
+    "status" : "409",
+    "code" : "ENTITY_ERROR",
+    "title" : "There is a problem with the request entity",
+    "resultCode" : 8220,
+    "detail" : "Your team has no devices from which to generate a provisioning profile. Connect a device to use or manually add device IDs in Certificates, Identifiers & Profiles. https://developer.apple.com/account/"
+  } ]
+}
+
+
+
+
+Communication with Apple failed (Your team has no devices from which to generate a provisioning profile. Connect a device to use or manually add device IDs in Certificates, Identifiers & Profiles. https://developer.apple.com/account/)
+
+
+
+Signing update finished    1/19/26, 2:12 PM    1.5 seconds
