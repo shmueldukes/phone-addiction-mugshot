@@ -1,0 +1,62 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project PhoneAddictionMugshot.xcodeproj -scheme PhoneAddictionMugshot -sdk iphoneos -configuration Release -archivePath ./build/PhoneAddictionMugshot.xcarchive -allowProvisioningUpdates DEVELOPMENT_TEAM=5Z5UQ64D5N
+
+Build settings from command line:
+    DEVELOPMENT_TEAM = 5Z5UQ64D5N
+    SDKROOT = iphoneos26.2
+
+2026-01-19 14:47:38.051 xcodebuild[4980:6695720] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00008132-000205881A50401C, name:My Mac }
+{ platform:iOS Simulator, arch:arm64, id:5DD4A343-E8F9-4267-B9EF-182FD86C77FF, OS:26.2, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:8A628048-1C8D-4415-A93A-F3D585086238, OS:26.2, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:49003B8C-A840-49C6-AA29-8253B57F619B, OS:26.2, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:411C1882-034D-4E83-98EC-C5759B738C59, OS:26.2, name:iPad Pro 11-inch (M5) }
+{ platform:iOS Simulator, arch:arm64, id:96F25A9D-A7BF-4615-8327-8802EA08561E, OS:26.2, name:iPad Pro 13-inch (M5) }
+{ platform:iOS Simulator, arch:arm64, id:3104F237-C7B6-470F-80A8-B885C27BBB18, OS:26.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:0C7793D8-0406-47F7-8A1F-31884D3D4D50, OS:26.2, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:E9015D11-6C30-4F5C-9B7F-2B996FCB3966, OS:26.2, name:iPhone 17 }
+{ platform:iOS Simulator, arch:arm64, id:B09ED3CE-1FCB-468C-B484-9E3984EAFC5A, OS:26.2, name:iPhone 17 Pro }
+{ platform:iOS Simulator, arch:arm64, id:B777851D-826E-4213-B766-6AF52709F146, OS:26.2, name:iPhone 17 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:81606BB4-21A3-4CA9-8DE5-0AF6FC86C7A5, OS:26.2, name:iPhone Air }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'PhoneAddictionMugshot' in project 'PhoneAddictionMugshot' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/shmueldukes/Documents/Mobile App Dev Agentic Software Factory/PhoneAddictionMugshot/ios/PhoneAddictionMugshot/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 0fb7c8caa288957b82b900c7e06567d6
+Build description path: /Users/shmueldukes/Library/Developer/Xcode/DerivedData/PhoneAddictionMugshot-czzyhmkzqvruxwfqurxfxjgihhtt/Build/Intermediates.noindex/ArchiveIntermediates/PhoneAddictionMugshot/IntermediateBuildFilesPath/XCBuildData/0fb7c8caa288957b82b900c7e06567d6.xcbuilddata
+/Users/shmueldukes/Documents/Mobile App Dev Agentic Software Factory/PhoneAddictionMugshot/ios/PhoneAddictionMugshot.xcodeproj: error: No Accounts: Add a new account in Accounts settings. (in target 'PhoneAddictionMugshot' from project 'PhoneAddictionMugshot')
+/Users/shmueldukes/Documents/Mobile App Dev Agentic Software Factory/PhoneAddictionMugshot/ios/PhoneAddictionMugshot.xcodeproj: error: No profiles for 'app.confluxsolutions.phoneaddictionmugshot' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'app.confluxsolutions.phoneaddictionmugshot'. (in target 'PhoneAddictionMugshot' from project 'PhoneAddictionMugshot')
+** ARCHIVE FAILED **
+
+
+The following build commands failed:
+	Archiving project PhoneAddictionMugshot with scheme PhoneAddictionMugshot
+(1 failure)

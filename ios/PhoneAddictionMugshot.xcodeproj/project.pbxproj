@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A98435111111111111111111111111 /* PhoneAddictionMugshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435222222222222222222222222 /* PhoneAddictionMugshotApp.swift */; };
+		50A98435333333333333333333333333 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435444444444444444444444444 /* ContentView.swift */; };
+		50A98435555555555555555555555555 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435666666666666666666666666 /* HomeView.swift */; };
+		50A98435777777777777777777777777 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435888888888888888888888888 /* GalleryView.swift */; };
+		50A98435999999999999999999999999 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435AAAAAAAAAAAAAAAAAAAAAAA /* SettingsView.swift */; };
+		50A98435BBBBBBBBBBBBBBBBBBBBBBB /* MugshotCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435CCCCCCCCCCCCCCCCCCCCCCC /* MugshotCaptureView.swift */; };
+		50A98435DDDDDDDDDDDDDDDDDDDDDDD /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A98435EEEEEEEEEEEEEEEEEEEEEEE /* ScreenTimeManager.swift */; };
+		50A98435FFFFFFFFFFFFFFFFFFFFFFF /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9843600000000000000000000000 /* CameraManager.swift */; };
+		50A9843611111111111111111111111 /* MugshotStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9843622222222222222222222222 /* MugshotStorageManager.swift */; };
+		50A9843633333333333333333333333 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9843644444444444444444444444 /* AnalyticsManager.swift */; };
+		50A9843655555555555555555555555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A9843666666666666666666666666 /* Assets.xcassets */; };
+		51569CF15D5D68DD6E4FE629 /* BiometricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337201006E3E2DBE83CA5154 /* BiometricManager.swift */; };
+		53371B55E27984C9BE58C411 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A9C1286ABF1C3FDF1B310 /* NotificationManager.swift */; };
+		601FBB83FB2CA6FEB54E2DD7 /* CollageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E06CF769FD9D944B8FE021B /* CollageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		337201006E3E2DBE83CA5154 /* BiometricManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BiometricManager.swift; sourceTree = "<group>"; };
+		3C7C1CB12F235100006C326F /* MugshotDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MugshotDashboardView.swift; sourceTree = "<group>"; };
+		50A98435222222222222222222222222 /* PhoneAddictionMugshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAddictionMugshotApp.swift; sourceTree = "<group>"; };
+		50A98435444444444444444444444444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A98435666666666666666666666666 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50A98435888888888888888888888888 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		50A98435AAAAAAAAAAAAAAAAAAAAAAA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		50A98435CCCCCCCCCCCCCCCCCCCCCCC /* MugshotCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MugshotCaptureView.swift; sourceTree = "<group>"; };
+		50A98435EEEEEEEEEEEEEEEEEEEEEEE /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+		50A9843600000000000000000000000 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		50A9843622222222222222222222222 /* MugshotStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MugshotStorageManager.swift; sourceTree = "<group>"; };
+		50A9843644444444444444444444444 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		50A9843666666666666666666666666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A9843677777777777777777777777 /* PhoneAddictionMugshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAddictionMugshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A9843688888888888888888888888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A98436ZZZZZZZZZZZZZZZZZZZZZZZ /* PhoneAddictionMugshot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhoneAddictionMugshot.entitlements; sourceTree = "<group>"; };
+		9D4A9C1286ABF1C3FDF1B310 /* NotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		9E06CF769FD9D944B8FE021B /* CollageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A9843699999999999999999999999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A98436AAAAAAAAAAAAAAAAAAAAAAA = {
+			isa = PBXGroup;
+			children = (
+				3C7C1CB12F235100006C326F /* MugshotDashboardView.swift */,
+				50A98436BBBBBBBBBBBBBBBBBBBBBBB /* PhoneAddictionMugshot */,
+				50A98436CCCCCCCCCCCCCCCCCCCCCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A98436BBBBBBBBBBBBBBBBBBBBBBB /* PhoneAddictionMugshot */ = {
+			isa = PBXGroup;
+			children = (
+				50A98435222222222222222222222222 /* PhoneAddictionMugshotApp.swift */,
+				50A98436DDDDDDDDDDDDDDDDDDDDDDD /* Views */,
+				50A98436EEEEEEEEEEEEEEEEEEEEEEE /* Managers */,
+				50A9843666666666666666666666666 /* Assets.xcassets */,
+				50A9843688888888888888888888888 /* Info.plist */,
+				50A98436ZZZZZZZZZZZZZZZZZZZZZZZ /* PhoneAddictionMugshot.entitlements */,
+			);
+			path = PhoneAddictionMugshot;
+			sourceTree = "<group>";
+		};
+		50A98436CCCCCCCCCCCCCCCCCCCCCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A9843677777777777777777777777 /* PhoneAddictionMugshot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A98436DDDDDDDDDDDDDDDDDDDDDDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50A98435444444444444444444444444 /* ContentView.swift */,
+				50A98435666666666666666666666666 /* HomeView.swift */,
+				50A98435888888888888888888888888 /* GalleryView.swift */,
+				50A98435AAAAAAAAAAAAAAAAAAAAAAA /* SettingsView.swift */,
+				50A98435CCCCCCCCCCCCCCCCCCCCCCC /* MugshotCaptureView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50A98436EEEEEEEEEEEEEEEEEEEEEEE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				50A98435EEEEEEEEEEEEEEEEEEEEEEE /* ScreenTimeManager.swift */,
+				50A9843600000000000000000000000 /* CameraManager.swift */,
+				50A9843622222222222222222222222 /* MugshotStorageManager.swift */,
+				50A9843644444444444444444444444 /* AnalyticsManager.swift */,
+				9D4A9C1286ABF1C3FDF1B310 /* NotificationManager.swift */,
+				337201006E3E2DBE83CA5154 /* BiometricManager.swift */,
+				9E06CF769FD9D944B8FE021B /* CollageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A98436FFFFFFFFFFFFFFFFFFFFFFF /* PhoneAddictionMugshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A9843700000000000000000000000 /* Build configuration list for PBXNativeTarget "PhoneAddictionMugshot" */;
+			buildPhases = (
+				50A9843711111111111111111111111 /* Sources */,
+				50A9843699999999999999999999999 /* Frameworks */,
+				50A9843722222222222222222222222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAddictionMugshot;
+			productName = PhoneAddictionMugshot;
+			productReference = 50A9843677777777777777777777777 /* PhoneAddictionMugshot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A9843733333333333333333333333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					50A98436FFFFFFFFFFFFFFFFFFFFFFF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 50A9843744444444444444444444444 /* Build configuration list for PBXProject "PhoneAddictionMugshot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A98436AAAAAAAAAAAAAAAAAAAAAAA;
+			productRefGroup = 50A98436CCCCCCCCCCCCCCCCCCCCCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A98436FFFFFFFFFFFFFFFFFFFFFFF /* PhoneAddictionMugshot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A9843722222222222222222222222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A9843655555555555555555555555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A9843711111111111111111111111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A98435111111111111111111111111 /* PhoneAddictionMugshotApp.swift in Sources */,
+				50A98435333333333333333333333333 /* ContentView.swift in Sources */,
+				50A98435555555555555555555555555 /* HomeView.swift in Sources */,
+				50A98435777777777777777777777777 /* GalleryView.swift in Sources */,
+				50A98435999999999999999999999999 /* SettingsView.swift in Sources */,
+				50A98435BBBBBBBBBBBBBBBBBBBBBBB /* MugshotCaptureView.swift in Sources */,
+				50A98435DDDDDDDDDDDDDDDDDDDDDDD /* ScreenTimeManager.swift in Sources */,
+				50A98435FFFFFFFFFFFFFFFFFFFFFFF /* CameraManager.swift in Sources */,
+				50A9843611111111111111111111111 /* MugshotStorageManager.swift in Sources */,
+				50A9843633333333333333333333333 /* AnalyticsManager.swift in Sources */,
+				53371B55E27984C9BE58C411 /* NotificationManager.swift in Sources */,
+				51569CF15D5D68DD6E4FE629 /* BiometricManager.swift in Sources */,
+				601FBB83FB2CA6FEB54E2DD7 /* CollageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50A9843755555555555555555555555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5Z5UQ64D5N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A9843766666666666666666666666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5Z5UQ64D5N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A9843777777777777777777777777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAddictionMugshot/PhoneAddictionMugshot.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z5UQ64D5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PhoneAddictionMugshot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.confluxsolutions.phoneaddictionmugshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A9843788888888888888888888888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAddictionMugshot/PhoneAddictionMugshot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5Z5UQ64D5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PhoneAddictionMugshot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.confluxsolutions.phoneaddictionmugshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Phone Addiction Mugshot Profile v2";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A9843700000000000000000000000 /* Build configuration list for PBXNativeTarget "PhoneAddictionMugshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A9843777777777777777777777777 /* Debug */,
+				50A9843788888888888888888888888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A9843744444444444444444444444 /* Build configuration list for PBXProject "PhoneAddictionMugshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A9843755555555555555555555555 /* Debug */,
+				50A9843766666666666666666666666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A9843733333333333333333333333 /* Project object */;
+}
